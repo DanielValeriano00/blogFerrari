@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Blog da Ferrari F40</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #ec0101;
+      color: #000000;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    nav ul li {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      padding: 10px;
+      border: 1px solid #fff;
+      border-radius: 4px;
+    }
+
+    nav ul li a:hover {
+      background-color: #fff;
+      color: #fff6f6;
+    }
+
+    .aba {
+      display: none;
+      padding: 20px;
+      background-color: #ca1414;
+    }
+
+    .aba.ativa {
+      display: block;
+    }
+  </style>
+  <script>
+    function mostrarAba(aba) {
+      var abas = document.querySelectorAll(".aba");
+      for (var i = 0; i < abas.length; i++) {
+        abas[i].classList.remove("ativa");
+      }
+      document.getElementById(aba).classList.add("ativa");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Blog da Ferrari F40</h1>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="mostrarAba('sobre')">Sobre</a></li>
+        <li><a href="#" onclick="mostrarAba('especificacoes')">Especificações</a></li>
+        <li><a href="#" onclick="mostrarAba('galeria')">Galeria</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="sobre" class="aba ativa">
+   <center>sobre a Ferrari F40</center> 
+    <p>A Ferrari F40 é um icônico supercarro fabricado pela renomada fabricante italiana de automóveis Ferrari. Foi produzido de 1987 a 1992 como um tributo ao 40º aniversário da Ferrari e foi projetado para ser um dos carros de rua mais rápidos e potentes do mundo na época de seu lançamento.
+
+      O desenvolvimento da Ferrari F40 começou no final da década de 1980 sob a supervisão de Enzo Ferrari, fundador da empresa. O objetivo era criar um carro de alto desempenho com um design aerodinâmico e um foco absoluto na velocidade. A Ferrari queria que o F40 superasse seu principal concorrente, o Porsche 959.
+      
+      O projeto da F40 foi liderado por Leonardo Fioravanti, da empresa de design Pininfarina. O carro foi construído com um chassi tubular de alumínio e fibra de carbono para garantir leveza e rigidez. O design externo era agressivo, com linhas angulares e uma asa traseira proeminente para melhorar a estabilidade em altas velocidades.
+      
+      Sob o capô, a Ferrari equipou o F40 com um motor V8 de 2,9 litros com dois turbocompressores. Esse motor produzia impressionantes 478 cavalos de potência e era capaz de acelerar o F40 de 0 a 100 km/h em menos de 4 segundos, com uma velocidade máxima de aproximadamente 320 km/h. Na época, esses números eram extremamente impressionantes.
+      
+      A Ferrari F40 também apresentava um interior espartano, com poucos confortos e luxos, já que seu foco principal era a performance. Os bancos eram de fibra de carbono e o carro não tinha ar-condicionado, rádio ou tapetes, a fim de economizar peso.
+      
+      A produção da F40 foi limitada a cerca de 1.300 unidades, tornando-a um item de colecionador muito desejado atualmente. O preço de venda na época era bastante alto, e a demanda superou a oferta, tornando o carro ainda mais cobiçado.
+      
+      Ao longo dos anos, a Ferrari F40 conquistou um lugar especial nos corações dos entusiastas de automóveis devido ao seu desempenho impressionante, design icônico e história significativa como um dos últimos carros aprovados por Enzo Ferrari antes de sua morte.
+      
+      A Ferrari F40 continua sendo um dos supercarros mais reconhecidos e valorizados até os dias de hoje, com exemplares bem preservados alcançando preços altíssimos em leilões e coleções particulares.
+  </div>
+<img src="f40 33.jpg" alt="" srcset="">
+  <div id="especificacoes" class="aba">
+    <h2>Especificações da Ferrari F40</h2>
+    <p>A Ferrari F40 é um icônico supercarro produzido pela Ferrari entre 1987 e 1992. Aqui estão algumas especificações-chave da Ferrari F40:
+
+      Motor:
+      
+      Motor V8 de 2,9 litros, com configuração biturbo
+      Potência: 478 cavalos (352 kW)
+      Torque: 577 Nm (425 lb-ft)
+      Transmissão manual de 5 velocidades
+      Desempenho:
+      
+      Aceleração de 0 a 100 km/h: cerca de 4 segundos
+      Velocidade máxima: mais de 320 km/h (200 mph)
+      Características:
+      
+      Carroceria de fibra de carbono e kevlar, com painéis de alumínio
+      Peso: aproximadamente 1.100 kg (2.425 lb)
+      Suspensão independente nas quatro rodas
+      Freios a disco ventilados nas quatro rodas
+      Tração traseira
+      Design:
+      
+      Design aerodinâmico agressivo, com spoiler traseiro e difusor
+      Linhas angulares e distintivas, assinatura da Ferrari
+      É importante notar que as especificações podem variar ligeiramente dependendo do ano de fabricação e de configurações específicas do carro. A Ferrari F40 é considerada uma das maiores referências em supercarros e é altamente valorizada por entusiastas e colecionadores de carros esportivos.
+      
+      
+      
+      
+      
+      .</p>
+  </div>
+
+  <div id="galeria" class="aba">
+    <h2>Galeria de Imagens da Ferrari F40</h2>
+    <img src="f 40 1.jpg" alt="" srcset="">
+    <img src="f40 motor.jpg" alt="" srcset="">
+    <img src="f40 branca.jpg" alt="" srcset="">
+    <img src="farol f40.jpg" alt="" srcset="">
+    <img src="4-.jpg" alt="" srcset="">
+    <p>Aprecie a beleza e o design impressionante da Ferrari F40 através de uma coleção de imagens selecionadas com cuidado.</p>
+  </div>
+</body>
+</html>
